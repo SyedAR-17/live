@@ -14,7 +14,7 @@ const App = () =>
 {
     return(
         <>
-            <Switch>
+           <Switch>
                 <Route path="/Home" exact component={withRouter(Home)} />
                 <Route path="/LoginPage" component={withRouter(LoginPage)} exact />
                 <Route path="/Maindiv" component={withRouter(Maindiv)} exact />
