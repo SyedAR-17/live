@@ -9,17 +9,16 @@ import LoginPage from './LoginPage';
 import { Component } from 'react';
 import { BrowserRouter, Route, Switch, withRouter } from 'react-router-dom';
 import Home from './Homes';
+import Login from './LoginPage';
 
 const App = () =>
 {
     return(
         <>
            <Switch>
-                <Route path="/Home" exact component={withRouter(Home)} />
+                <Route path="/Home" component={withRouter(Home)} exact />
                 <Route path="/LoginPage" component={withRouter(LoginPage)} exact />
-                <Route path="/Maindiv" component={withRouter(Maindiv)} exact />
-                <Route path="/Footer" component={withRouter(Footer)} exact />
-            </Switch>
+           </Switch>
         </>
     )
 
