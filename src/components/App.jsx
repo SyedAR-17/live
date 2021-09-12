@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
+
 import LoginPage from './LoginPage';
+
 import { BrowserRouter, Route, Switch, withRouter } from 'react-router-dom';
 import Home from './Homes';
 
