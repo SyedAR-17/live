@@ -33,7 +33,7 @@
    <div className={props.classes.root}>
      <ButtonAppBarCollapse>
        <MenuItem><a style={{textDecoration:'none', fontWeight:'900', aHover:'red' }} href="LoginPage">LOGIN</a></MenuItem>
-       <MenuItem><a style={{textDecoration:'none', fontWeight:'900', }} href={props.srcTwo}>HOW IT WORKS</a></MenuItem>
+       <MenuItem><a style={{textDecoration:'none', fontWeight:'900' }} href={props.srcTwo}>HOW IT WORKS</a></MenuItem>
        <MenuItem><a style={{textDecoration:'none', fontWeight:'900', }} href={props.srcThree}>ABOUT</a></MenuItem>
      </ButtonAppBarCollapse>
      <div className={props.classes.buttonBar} id="appbar-collapse">
