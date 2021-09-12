@@ -8,8 +8,8 @@
  import { Button, MenuItem } from "@material-ui/core";
  import { withStyles } from "@material-ui/core/styles";
  import ButtonAppBarCollapse from "./ButtonAppBarCollapse";
- import { Link } from "react-router-dom";
- import PlanHeader from './PlanHeader';
+ import LoginPage from './LoginPage';
+ import { Link } from 'react-router';
  
  const styles = theme => ({
    root: {
@@ -32,12 +32,12 @@
  const AppBarCollapse = (props) => (
    <div className={props.classes.root}>
      <ButtonAppBarCollapse>
-       <MenuItem><a style={{textDecoration:'none', fontWeight:'900', aHover:'red' }} href={props.srcOne}>LOGIN</a></MenuItem>
+       <MenuItem><a style={{textDecoration:'none', fontWeight:'900', aHover:'red' }} href="LoginPage">LOGIN</a></MenuItem>
        <MenuItem><a style={{textDecoration:'none', fontWeight:'900', }} href={props.srcTwo}>HOW IT WORKS</a></MenuItem>
        <MenuItem><a style={{textDecoration:'none', fontWeight:'900', }} href={props.srcThree}>ABOUT</a></MenuItem>
      </ButtonAppBarCollapse>
      <div className={props.classes.buttonBar} id="appbar-collapse">
-       <Button color="inherit"><a style={{textDecoration:'none', fontWeight:'900',}} href={props.srcOne}>LOGIN</a></Button>
+       <Button color="inherit"><a style={{textDecoration:'none', fontWeight:'900',}} target="_blank" href={props.srcOne}>LOGIN</a></Button>
        <Button color="inherit"><a style={{textDecoration:'none', fontWeight:'900', }} href={props.srcTwo}>HOW IT WORKS</a></Button>
        <Button color="inherit"><a style={{textDecoration:'none', fontWeight:'900', }} href={props.srcThree}>ABOUT</a></Button>
      </div>

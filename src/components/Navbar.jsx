@@ -32,14 +32,14 @@ function ButtonAppBar(props) {
   return (
     <AppBar id='navMain' position="fixed" className={classes.navigation}>
       <Toolbar>
-      <Link to='/Home'>
+      <a href='/Home'>
           <IconButton
             color="inherit"
             aria-label="Menu"
             className={classes.toggleDrawer}>
             <HomeIcon />
           </IconButton>
-      </Link>
+      </a>
         <AppBarCollapse srcOne={props.linkOne} srcTwo={props.linkTwo} srcThree={props.linkThree} />
       </Toolbar>
     </AppBar>
@@ -50,4 +50,4 @@ ButtonAppBar.propTypes = {
   classes: PropTypes.object.isRequired
 };
 
-export default withRouter(withStyles(styles)(ButtonAppBar));
+export default withStyles(styles)(ButtonAppBar);
