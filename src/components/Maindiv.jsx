@@ -18,7 +18,7 @@ export default function CenteredGrid() {
   const classes = useStyles();
 
   return (
-    <div id='SecondGrid' className={classes.root}>
+    <div id='SecondGrid' style={{backgroundRepeat:'no-repeat', backgroundSize:'100%100%', backgroundImage:'url(https://media.istockphoto.com/vectors/black-background-vector-id1166313278?k=6&m=1166313278&s=612x612&w=0&h=qGRNtZlY70eW-cs-pvT44oQfnujWLwNd7wXM0WvPryE=)'}} className={classes.root}>
       <Grid container spacing={0}>
         <Grid id='textGrid' item xs={12}>
          <h2 style={{marginTop:'30px'}}>Here's How It Works!</h2>
