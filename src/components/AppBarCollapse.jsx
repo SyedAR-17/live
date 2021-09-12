@@ -37,7 +37,7 @@
        <MenuItem><a style={{textDecoration:'none', fontWeight:'900', }} href={props.srcThree}>ABOUT</a></MenuItem>
      </ButtonAppBarCollapse>
      <div className={props.classes.buttonBar} id="appbar-collapse">
-       <Button color="inherit"><a style={{textDecoration:'none', fontWeight:'900',}} target="_blank" href={props.srcOne}>LOGIN</a></Button>
+       <Button color="inherit"><a style={{textDecoration:'none', fontWeight:'900',}} href={props.srcOne}>LOGIN</a></Button>
        <Button color="inherit"><a style={{textDecoration:'none', fontWeight:'900', }} href={props.srcTwo}>HOW IT WORKS</a></Button>
        <Button color="inherit"><a style={{textDecoration:'none', fontWeight:'900', }} href={props.srcThree}>ABOUT</a></Button>
      </div>

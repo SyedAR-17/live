@@ -12,7 +12,7 @@ const Homes = () =>
 {
     return(
         <> 
-            <Nav id='mainNav' linkOne='LoginPage' linkTwo='#SecondGrid' linkThree='#footer'/>
+            <Nav id='mainNav' linkOne='./LoginPage' linkTwo='#SecondGrid' linkThree='#footer'/>
             <Main/>
             <Maindiv/>
             <PlanHeader/>
